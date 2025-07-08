@@ -31,23 +31,6 @@ export default function DoctorSlider() {
     },
   ];
 
-  const splideOptions = {
-    type: "loop",
-    perPage: 1,
-    perMove: 1,
-    pagination: true,
-    arrows: true,
-    gap: "1rem",
-    autoplay: false,
-    speed: 800,
-    easing: "ease-in-out",
-    breakpoints: {
-      640: {
-        arrows: false,
-      },
-    },
-  };
-
   return (
     <div className="w-full max-w-md mx-auto">
       <Splide
