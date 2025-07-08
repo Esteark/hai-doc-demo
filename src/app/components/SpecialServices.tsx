@@ -57,7 +57,7 @@ export default function SpecialServices() {
             {services.map((service, index) => (
               <article
                 key={index}
-                className="flex flex-col gap-4 items-center text-center md:text-start md:items-start group duration-500  p-6 py-8 rounded-lg relative shadow-md"
+                className="flex flex-col gap-4 items-center text-center md:text-start md:items-start group duration-500  p-6 py-8 rounded-lg relative shadow-md hover:scale-105"
               >
                 <Button
                   icon={
