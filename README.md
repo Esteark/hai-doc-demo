@@ -1,36 +1,120 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# HAI-DOC 🏥
 
-## Getting Started
+Una aplicación web moderna para la gestión médica y consultas de salud, desarrollada con las últimas tecnologías web.
 
-First, run the development server:
+## 🚀 Características
+
+- **Interfaz intuitiva** - Diseño moderno y responsivo
+- **Animaciones fluidas** - Experiencia de usuario mejorada
+- **Componentes interactivos** - Sliders y elementos dinámicos
+- **Tipado seguro** - Desarrollo con TypeScript para mayor robustez
+
+## 🛠️ Tecnologías Utilizadas
+
+- **[Next.js](https://nextjs.org/)** - Framework de React para aplicaciones web full-stack
+- **[TypeScript](https://www.typescriptlang.org/)** - Superset de JavaScript con tipado estático
+- **[Tailwind CSS](https://tailwindcss.com/)** - Framework CSS utilitario para diseño rápido
+- **[Framer Motion](https://www.framer.com/motion/)** - Biblioteca para animaciones y transiciones
+- **[Splide.js](https://splidejs.com/)** - Slider/carrusel ligero y flexible
+
+## 📋 Prerrequisitos
+
+Antes de comenzar, asegúrate de tener instalado:
+
+- **Node.js** (versión 18 o superior)
+- **npm** o **yarn**
+
+## ⚡ Instalación y Configuración
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/tu-usuario/hai-doc.git
+cd hai-doc
+```
+
+### 2. Instalar dependencias
+
+```bash
+npm install
+# o
+yarn install
+```
+
+### 3. Ejecutar en modo desarrollo
 
 ```bash
 npm run dev
-# or
+# o
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 4. Abrir en el navegador
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Navega a [http://localhost:3000](http://localhost:3000) para ver la aplicación.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📜 Scripts Disponibles
 
-## Learn More
+- `npm run dev` - Inicia el servidor de desarrollo
+- `npm run build` - Construye la aplicación para producción
+- `npm run start` - Inicia el servidor de producción
+- `npm run lint` - Ejecuta el linter para verificar el código
 
-To learn more about Next.js, take a look at the following resources:
+## 📁 Estructura del Proyecto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+hai-doc/
+├── public/
+│   ├── images/
+│   └── ...
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── styles/
+│   └── ...
+├── package.json
+├── next.config.js
+└── README.md
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Construcción para Producción
 
-## Deploy on Vercel
+Para crear una versión optimizada para producción:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run build
+npm run start
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📱 Responsive Design
+
+La aplicación está optimizada para:
+
+- 📱 **Móviles** - Experiencia táctil optimizada
+- 📱 **Tablets** - Interfaz adaptativa
+- 💻 **Desktop** - Funcionalidad completa
+
+## 🤝 Contribuciones
+
+Las contribuciones son bienvenidas. Para cambios importantes:
+
+1. Fork el proyecto
+2. Crea una rama para tu feature (`git checkout -b feature/nueva-funcionalidad`)
+3. Commit tus cambios (`git commit -m 'Añade nueva funcionalidad'`)
+4. Push a la rama (`git push origin feature/nueva-funcionalidad`)
+5. Abre un Pull Request
+
+## 📝 Licencia
+
+Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
+
+## 📧 Contacto
+
+Para preguntas o sugerencias, puedes contactar:
+
+- **Email**: eardila@gmail.com
+- **GitHub**: [@estebark](https://github.com/Esteark)
+
+---
+
+**Desarrollado por Estebark con mucho sentimiento ❤️ usando Next.js**

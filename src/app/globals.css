@@ -3,13 +3,53 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --main: #f4feff;
+  --primaryBlue: #172048;
+  --secondaryBlue: #007299;
+  --thirdBlue: #56e0e0;
+  --fourthBlue: #45bdbf;
+  --fifthBlue: #005c7b;
+  --mainDark: #242527;
+  --gray: #c4c4c4;
 }
 
-@theme inline {
+@theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-main-100: var(--main);
+  --color-primary-100: var(--primaryBlue);
+  --color-primary-50: var(--secondaryBlue);
+  --color-primary-10: var(--thirdBlue);
+  --color-secondary-100: var(--fourthBlue);
+  --color-secondary-50: var(--fifthBlue);
+  --color-gris-100: var(--gray);
+  --color-mainDark-100: var(--mainDark);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+}
+
+@layer utilities {
+  .bg-gradient-azul-derecha {
+    background-image: linear-gradient(
+      90deg,
+      var(--thirdBlue) 0%,
+      var(--secondaryBlue) 100%
+    );
+  }
+  .bg-gradient-azul-arriba {
+    background-image: linear-gradient(
+      0deg,
+      var(--secondaryBlue) 0%,
+      var(--thirdBlue) 100%
+    );
+  }
+  .bg-gradient-azul-derecha_secondary {
+    background-image: linear-gradient(
+      90deg,
+      var(--fourthBlue) 0%,
+      var(--fifthBlue) 100%
+    );
+  }
 }
 
 @media (prefers-color-scheme: dark) {
