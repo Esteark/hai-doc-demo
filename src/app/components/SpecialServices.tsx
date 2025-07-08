@@ -31,7 +31,7 @@ export default function SpecialServices() {
 
   return (
     <section className="px-6 my-16">
-      <section className="lg:container mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+      <section className="lg:container mx-auto grid grid-cols-1 xl:grid-cols-2 gap-6">
         <figure className="w-full flex justify-center">
           <Image
             className="object-cover max-w-64 md:max-w-96 h-full rounded-lg"
