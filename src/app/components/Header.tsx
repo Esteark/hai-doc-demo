@@ -30,9 +30,9 @@ export default function Header() {
     },
   };
 
-  const fadeLeft = {
+  const fadeLeft: Variants = {
     hidden: { opacity: 0, x: -50 },
-    show: (custom: number) => ({
+    show: (custom) => ({
       opacity: 1,
       x: 0,
       transition: {
@@ -43,7 +43,7 @@ export default function Header() {
     }),
   };
 
-  const fadeIn = {
+  const fadeIn: Variants = {
     hidden: { opacity: 0 },
     show: {
       opacity: 1,
