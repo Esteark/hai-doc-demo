@@ -99,7 +99,7 @@ export default function Footer() {
             <figure className="bg-[#dcf0f5] flex items-center justify-center rounded-full p-3">
               <Image
                 className="object-cover w-4 h-4"
-                src="/icons/iconinsta.svg"
+                src="/icons/iconInsta.svg"
                 alt="Facebook icon"
                 width={24}
                 height={24}

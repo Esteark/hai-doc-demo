@@ -5,10 +5,10 @@ import DoctorSlider from "./DoctorSlider";
 export default function OurDoctors() {
   return (
     <section className="px-6 bg-main-100 ">
-      <section className="lg:container mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 py-12">
+      <section className="lg:container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6 py-12">
         <article className="flex justify-center items-center w-full">
           <article className="flex flex-col gap-3">
-            <h3 className="text-sm text-mainDark-100 font-semibold">
+            <h3 className="text-sm text-mainDark-100 font-semibold text-center lg:text-start">
               Our Doctors
             </h3>
             <h2 className="font-bold text-2xl md:text-3xl items-center lg:items-start text-transparent bg-clip-text bg-gradient-azul-derecha_secondary text-center lg:text-start">
