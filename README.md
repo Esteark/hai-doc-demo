@@ -112,7 +112,7 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 Para preguntas o sugerencias, puedes contactar:
 
-- **Email**: eardila@gmail.com
+- **Email**: eardila1409@gmail.com
 - **GitHub**: [@estebark](https://github.com/Esteark)
 
 ---
